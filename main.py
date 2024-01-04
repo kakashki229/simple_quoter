@@ -119,4 +119,5 @@ else:
 img.paste(avatar, (0, 0))
 # Save the image
 img.show()
-img.save('output.png')
+outputname = input(enter output file name: )
+img.save(outputname+'.png')
